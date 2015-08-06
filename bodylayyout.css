@@ -1,0 +1,12 @@
+body#layout .pi-navigation{display:}
+body#layout .pi-navigation li {list-style: none;}
+body#layout #header{width:300px;margin:0 auto 30px}
+body#layout #featured{width:756px;margin:0 auto 30px}
+body#layout .blog-grid .container{margin:0 20px}
+body#layout #header:before {content: "Copyright Cat DTech";}
+body#layout .blog-grid .col-md-9{width:440px;float:left}
+body#layout .blog-grid .col-md-3{width:300px;float:right}
+body#layout footer{margin:30px 20px 0}
+body#layout footer .col-md-4{float:left;width:33.3333%;}
+body#layout footer .col-md-3{float:left;width:25%}
+body#layout footer .col-md-2{float:left;width:16.6667%
