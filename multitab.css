@@ -4,7 +4,7 @@ display: none;
 label.tab-menu {
 display: inline-block;
 float: center;
-padding:10px 30px;
+
 cursor: pointer;
 z-index: 99;
 }
