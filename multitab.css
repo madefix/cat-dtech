@@ -1,0 +1,42 @@
+input.tab-menu-radio {
+display: none;
+}
+label.tab-menu {
+display: inline-block;
+float: left;
+color: black;
+padding:7px 20px;
+cursor: pointer;
+z-index: 99;
+}
+/* End Tab menu styling*//* Tab content styling*/
+.tab-content {
+top:-3px;
+clear: both;
+width: 100%;
+position: relative;
+padding:20px;
+background-color: #fff;
+border-top:1px solid #E74B3C;
+}
+/* End Tab content styling*//* CSS tab core */
+.tab-menu-radio:checked + label {
+-webkit-transition:all 1s; /* Optional */
+-moz-transition:all 1s; /* Optional */
+transition:all 1s; /* Optional */
+background-color: #E74B3C;
+color: #fff;
+}
+.tab-content .tab {
+height: 0;
+opacity: 0;
+}
+#tab-menu1:checked ~ .tab-content .tab-1,
+#tab-menu2:checked ~ .tab-content .tab-2,
+#tab-menu3:checked ~ .tab-content .tab-3 {
+-webkit-transition:opacity 1s; /* Optional */
+-moz-transition:opacity 1s; /* Optional */
+transition:opacity 1s; /* Optional */
+height: auto;
+opacity: 1;
+}
