@@ -1,0 +1,70 @@
+ #byard-emailsubsocial {
+          width: 300px;
+          height: 330px;
+          border: 1px solid #ddd;
+            border-radius: 5px 5px 0px 0px;
+         }
+         #byard-emailsubsocial .heading {
+    padding: 15px 25px;
+    line-height: 35px;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: open sans;
+    color: rgb(170, 170, 170);
+    text-align: center;
+    text-shadow: 0px 1px rgba(255, 255, 255, 0.75);
+    background: none repeat scroll 0% 0% rgb(247, 247, 247);
+         }
+       #byard-emailsubsocial p {
+        font-family: open sans;
+        background: #fff;
+        font-size: 13px;
+        color: rgb(170, 170, 170);
+        line-height: 25px;
+        padding: 10px 20px 0 20px;
+        margin: 0;
+       }
+       #byard-emailsubsocial .emailsub {
+background: #fff;
+        padding: 0px 20px 10px 20px;
+       }
+       #byard-emailsubsocial .emailsub input {
+background: #fff;
+        color: rgb(170, 170, 170);
+        padding: 10px;
+        margin-top: 10px;
+        font-size: 15px;
+        font-family: open sans;
+        width: 92%;
+        border: 1px solid #ccc;
+        border-bottom: 2px solid #ccc;
+        border-radius: 5px;
+        transition:border 0.15s linear 0s, box-shadow 0.15s linear 0s, color 0.15s linear 0s;
+       }
+       #byard-emailsubsocial .emailsub input:focus {
+background: #fff;
+        border-color:#F4836A;
+        outline: none;
+        box-shadow: 0 0 2px 1px #F4836A;
+       }
+       #byard-emailsubsocial .emailsub .button {
+        background: #F4836A;
+        color: white!important;
+        border:none;
+        outline: none;
+        border-bottom: 3px solid #B3614E;
+        transition:background .4s linear;
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+        font-weight: 600;
+        cursor:pointer;
+       }
+       #byard-emailsubsocial .emailsub .button:hover{
+        background: #DD7761;
+       }
+    #credits {
+    margin: 0 auto!important;
+    margin-top: -10px!important;
+    width: 160px;
+    }
