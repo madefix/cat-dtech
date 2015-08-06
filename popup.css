@@ -1,0 +1,105 @@
+a.popup-link {
+text-align: center;
+float: center;
+position: absolute;
+width: 155px;
+height: 55px;
+color: none;
+text-decoration: none;
+background: #FFF url(https://lh3.googleusercontent.com/-_Dpa5W8XZyE/VcGfXoq8jyI/AAAAAAAABvM/X_oq6NaXZsw/s145-Ic42/Cat-DTech%252520Subscribe.png)
+no-repeat scroll 5px 10px;
+border-radius: 3px;
+        -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.08);
+        -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.08);
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.08);
+display: block;
+}
+a.popup-link:hover {
+-webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.08);
+        -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.08);
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.08);
+transition:all 1s;
+}
+/* end link popup*//*style untuk popup */
+#popup {
+visibility: hidden;
+opacity: 0;
+margin-top: -200px;
+}
+#popup:target {
+visibility:visible;
+opacity: 1;
+background-color: rgba(255,255,255,0.7);
+position: fixed;
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin:0;
+z-index: 99999999999;
+-webkit-transition:all 1s;
+-moz-transition:all 1s;
+transition:all 1s;
+}@media (min-width: 768px){
+.popup-container {
+width:400px;
+}
+}
+@media (max-width: 767px){
+.popup-container {
+width:100%;
+}
+}
+.popup-container {
+position: relative;
+margin:7% auto;
+padding:30px 50px;
+background-color: none;
+color:#fff;
+border-radius: 3px;
+}a.popup-close {
+position: absolute;
+top:3px;
+right:3px;
+background-color: #fff;
+padding:7px 10px;
+font-size: 20px;
+text-decoration: none;
+line-height: 1;
+color:#333;
+}/* style untuk isi popup */.popup-form {
+margin:10px auto;
+}
+.popup-form h2 {
+margin-bottom: 5px;
+font-size: 37px;
+text-transform: uppercase;
+}
+.popup-form .input-group {
+margin:10px auto;
+}
+.popup-form .input-group input {
+padding:17px;
+text-align: center;
+margin-bottom: 10px;
+border-radius:3px;
+font-size: 16px;
+display: block;
+width: 100%;
+}
+.popup-form .input-group input:focus {
+outline-color:#FB8833;
+}
+.popup-form .input-group input[type="email"] {
+border:0px;
+position: relative;
+}
+.popup-form .input-group input[type="submit"] {
+background-color: #FB8833;
+color: #fff;
+border: 0;
+cursor: pointer;
+}
+.popup-form .input-group input[type="submit"]:focus {
+box-shadow: inset 0 3px 7px 3px #ea7722;
+}
